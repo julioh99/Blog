@@ -6,6 +6,13 @@ body{
     margin: 0px;
     padding: 0;
 }
+#cabecera{
+    background: #33ACBF;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: bold;
+}
 #container{
     width: 70%;
     padding: 1em;
@@ -15,4 +22,504 @@ body{
 }
 #container h1{
     font-size: 20px;
+}
+
+#index-content-footer {
+    display: flex;
+    width: 100%;
+    height: 65%;
+}
+#index-content-footer-movil {
+    display: none;
+}
+.content-footer {
+    display: flex;
+    align-items: flex-end;
+}
+.index-footer-item {
+    margin: 0 auto;
+}
+.content-footer-info{
+    flex: 1 1 auto;
+    padding-bottom: 2em;
+    border-right: 2px solid #fff;
+}
+.content-footer-contactos{
+    width: 30%;
+}
+.icon-red-social {
+    margin: 0 0.4em;;
+}
+
+.index-title-footer{
+    width: calc(100%/2 - 2*5em);
+}
+/*endregion*/
+
+/*#region Palma y banano*/
+.home {
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/homepage/banano.png");
+    border-radius: 10% 0 0 28% / 69% 0 0 32%;
+}
+
+.intro-form {
+    background-color: white;
+    padding: 1% 5% 1%;
+    border-radius: 5px;
+    border: 3px solid #eee;
+}
+
+.navbar-nav .nav-item>a {
+    font-weight: 700;
+    font-size: 22px;
+    color: #182433;
+    letter-spacing: 0.03em;
+    font-family: 'moda', sans-serif;
+}
+
+.secQueHacemos {
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+.secComoHacemos {
+    background: #820E10;
+}
+
+.card-body .list1>li {
+    list-style: none;
+    list-style-image: url("../img/homepage/check.png");
+}
+.card-body .list2>li {
+    list-style: none;
+    list-style-image: url("../img/homepage/point.png");
+}
+
+.card{
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-sec-titulos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.item-img-hacemos{
+    max-width: 100%;
+}
+
+.item-img{
+    margin: 1em;
+}
+
+.img-cultivo{
+    background-color: transparent;
+    border: none;
+}
+
+.img-card-body{
+    text-align: center;
+}
+
+.img-mobile{
+    padding: 1em 0px;
+}
+
+.text-img{
+    margin-bottom: 0;
+}
+
+.item-home-product{
+    display: flex;
+}
+
+.home-product-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 11px;
+}
+
+#lblSesion{
+    border: none;
+    text-align: center;
+}
+
+#nav-banano{
+    border-bottom:5px solid rgb(120,15,15);
+}
+/*#endregion*/
+
+/*#region Seccion Contactenos*/
+    #secContanctenos {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .item-sec-contactenos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .modal-header
+    {
+        background-color: #000000;
+    }
+
+    .letra-modal{
+        color: #ffffff;
+    }
+
+    
+    .text-contantenos{
+        margin-bottom: 0em;
+    }
+
+    .text-contantenos-terminos{
+        font-size: 67%;
+    }
+    .btn-red-sioma-contactenos{
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: 12px;
+        background-color: rgb(120,15,15);
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .btn-red-sioma-contactenos:hover{
+        background-color: rgb(150,15,15);
+    }
+
+/*#endregion*/
+/*#region Seccion Clientes*/
+    #secClientes {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .item-sec-clientes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1em auto;
+        text-align: center;
+    }
+    .content-logo-clientes{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+    .content-img-clientes {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+/*#endregion*/
+/*#region Seccion Numeros*/
+    #secNumeros {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+    }
+    .item-sec-numeros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1em auto;
+    }
+    .content-items-numeros{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2em;
+    }
+    .item-numero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .info-numero {
+        font-weight: bold;
+        font-size: 2em;
+    }
+    .item-divider {
+        height: 4px;
+        background-color: rgb(120,15,15);
+        width: 4em;
+        margin: 1em auto;
+    }
+
+
+
+/*#endregion*/
+
+@media all and (max-width: 768px) {
+    /*#region Global*/
+        .title {
+            font-size: 1.5em;
+        }
+    /*#endregion*/
+
+    /*#region Header*/
+        nav {
+            padding: 0 5%;
+            font-size: .8em !important;
+        }
+        .logo{
+            height: 44px;
+        }
+        .intro-form {
+            background-color: white;
+            padding: 1% 5% 1%;
+            border-radius: 5px;
+            border: 3px solid #eee;
+        }
+    /*#endregion*/
+    /*#region Home*/
+
+        .item-content-home {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: transparent;
+        }
+
+        section.sec-home { 
+            grid-template-rows:  10% 55% 10% 25%;
+            grid-template-columns: repeat(1,100%); 
+            background-color: white;
+            
+        }
+
+        #text-home {
+            font-size: 14px;
+        }
+
+        #text-title{
+            text-align: center;
+            margin: 0px .5em;
+        }
+
+        .item-home-title{
+            grid-row: 1;
+            grid-column: 1;
+            justify-content: flex-end;
+        }
+        .item-home-text{
+            grid-row: 3;
+            grid-column: 1;
+            justify-content: flex-start;
+        }
+        .item-home-img{
+            grid-row: 4;
+            grid-column: 1;
+            justify-content: flex-start;
+        }
+        .item-home-icons{
+            display: none;
+        }
+        .item-home-form{
+            grid-row: 2;
+            grid-column: 1;
+            z-index: 0;
+        
+        }
+
+        .item-home-video {
+            display: none;
+        }
+
+        .item-home{
+            display: flex;
+            justify-content: center;
+        }
+
+        .imgLabor{
+            width: 100%;
+            height: auto;
+            max-width: 57px;
+        }
+
+        .item-home-product{
+            display: flex;
+        }
+
+        .home-product-img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1em 11px;
+        }
+       
+    /*#endregion*/
+    /*#region Seccion Clientes*/
+        #secClientes{
+            height: auto;
+            padding: 1em 0;
+        }
+        .content-logo-clientes {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-gap: .5em;
+            padding: 0 1em;
+        }
+        .item-sec-clientes{
+            font-size: 1.1em !important;
+            width: 90%;
+        }
+        .content-img-clientes > img {
+            height: 34px;
+        }
+
+        .modal-header
+    {
+        background-color: #000000;
+    }
+
+    .letra-modal{
+        color: #ffffff;
+    }
+
+    
+    .text-contantenos{
+        margin-bottom: 0em;
+    }
+
+    .text-contantenos-terminos{
+        font-size: 67%;
+    }
+    .btn-red-sioma-contactenos{
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: 12px;
+        background-color: rgb(120,15,15);
+        color: #fff;
+        cursor: pointer;
+    }
+    /*#endregion*/
+    /*#region Seccion Numeros*/
+        #secNumeros{
+            height: auto;
+            padding: 1em 0;
+        }
+       .content-items-numeros {
+           grid-template-columns: repeat(2, 1fr);
+       }
+       .info-numero{
+           font-size: 1.5em;
+       }
+    /*#endregion*/
+
+    /*#region Footer*/
+        #index-content-footer {
+            display: none;
+        }
+        #index-content-footer-movil{
+            display: block;
+            width: 100%;
+        }
+        .content-head-footer{
+            align-items: center;
+            margin: 5% 0;
+        }
+        .content-head-footer .index-footer-item{
+            display: flex;
+            align-items: center;
+        }
+        .content-footer{
+            width: 100%;
+        }
+        .content-footer-contactos {
+            align-items: center;
+        }
+        .content-footer-info{
+            width: 100%;
+            padding-bottom: 0;
+        }
+        .content-footer-info > p{
+            padding-left: 10%;
+        }
+        .content-icons-red-social{
+            width: 30%;
+        }
+        .content-icon-red-social {
+            display: flex;
+            justify-content: center;
+            margin: .5em 0;
+        }
+        .icon-red-social{
+            height: 24px;
+        }
+    /*#endregion*/
+
+}
+
+
+.card-img-top-card {
+    /*height: 11vw;*/
+    object-fit: cover;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .card-img-top-card {
+        height: 53vw;
+    }
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .card-img-top-card {
+        height: 16vw;
+    }
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .card-img-top-card {
+        height: 11vw;
+    }
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 992px) {
+    .card-img-top-card {
+        height: 18vw;
+    }
+  }
+  
+footer{
+    height: 255px;
+    width: 100%;
+    background: #820E10;
+    color: #fff;
+    display: flex;
+    align-items: center;
 }
